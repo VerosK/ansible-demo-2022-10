@@ -4,4 +4,4 @@ postgresql_users_extra:
     state: present
 
 postgresql_users:
-  "{{ postgreql_users_common + postgresql_users_extra }}"
+  "{{ postgresql_users_common + postgresql_users_extra }}"
