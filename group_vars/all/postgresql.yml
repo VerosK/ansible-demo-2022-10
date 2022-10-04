@@ -1,0 +1,15 @@
+postgresql_users:
+  - name: hello
+    password: world
+    state: present
+  - name: demo
+    password: demo
+    state: present
+
+postgresql_databases:
+  - name: hello
+    owner: hello
+    state: present
+  - name: demo
+    owner: demo
+    state: present
