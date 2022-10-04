@@ -4,3 +4,10 @@
   file:
     path: '{{ adminer_dir }}'
     state: directory
+
+- name: Download Adminer source
+  get_url:
+    url: '{{ adminer_source_url }}'
+    dest: '{{ adminer_dir }}/index.php'
+    checksum: '{{ adminer_file_checksum }}'
+    mode: 0444
