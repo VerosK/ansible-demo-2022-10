@@ -2,6 +2,6 @@
 - name: Setup Postgresql with web interface
   hosts: all
 
-  tasks:
-    - name: Check connectivity
-      ping:
+  roles:
+    # use https://github.com/geerlingguy/ansible-role-postgresql role
+    - role: geerlingguy.postgresql

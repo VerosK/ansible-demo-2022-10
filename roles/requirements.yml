@@ -1,1 +1,4 @@
 
+roles:
+  - role: geerlingguy.postgresql
+    version: 3.4.0
