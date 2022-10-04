@@ -3,5 +3,7 @@
   hosts: all
 
   roles:
-    # use https://github.com/geerlingguy/ansible-role-postgresql role
+
     - role: geerlingguy.postgresql
+    - role: geerlingguy.apache
+    - role: geerlingguy.php

@@ -2,3 +2,8 @@
 roles:
   - role: geerlingguy.postgresql
     version: 3.4.0
+  - role: geerlingguy.apache
+    version: 3.3.0
+  - role: geerlingguy.php
+    version: 4.8.0
+
