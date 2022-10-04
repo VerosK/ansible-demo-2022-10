@@ -1,0 +1,4 @@
+postgresql_users_extra:
+  - name: master
+    password: replica
+    state: present
