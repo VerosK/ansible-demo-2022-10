@@ -2,3 +2,6 @@ postgresql_users_extra:
   - name: master
     password: replica
     state: present
+
+postgresql_users:
+  "{{ postgreql_users_common + postgresql_users_extra }}"

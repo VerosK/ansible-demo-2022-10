@@ -6,10 +6,8 @@ postgresql_users_common:
     password: demo
     state: present
 
-postgresql_users_extra: []
-
 postgresql_users:
-  "{{ postgresql_users_common + postgresql_users_extra }}"
+  "{{ postgresql_users_common }}"
 
 
 postgresql_databases:
