@@ -7,4 +7,4 @@
     - role: geerlingguy.postgresql
     - role: geerlingguy.apache
     - role: geerlingguy.php
-    - role: adminer
+    - role: local.adminer

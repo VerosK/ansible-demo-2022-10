@@ -1,0 +1,3 @@
+# group_vars/all/adminer.yml
+
+adminer_dir: "/opt/adminer-4.8.0"
